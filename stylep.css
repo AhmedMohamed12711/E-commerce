@@ -1,0 +1,582 @@
+:root{
+    --margin-bottom:20px;
+    --color: #e8e8e8ac;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--color);
+    margin-bottom: var(--margin-bottom);
+    padding-bottom: 10px;
+}
+.header{
+    width: 100%;
+    height: 60px;  
+}
+.title{
+    transform: translatex(-50px);
+    padding-top: 10px;
+
+}
+.title h1{
+    display: flex;
+    font-family:  "Lemonada", cursive;
+    font-size: 20px;
+    font-weight: 380;
+    line-height: 45.95px;
+
+}
+.title p{
+    color: rgba(0, 0, 0, 0.708);
+    font-family:  "Lemonada", cursive;
+    font-size: 20px;
+    font-weight: 380;
+    line-height: 45.95px;
+
+
+}
+.login{
+    padding-top:10px ;
+}
+
+.login button{
+    transform: translatex(30px);
+    width: 133px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #1976D2;
+    border: none;
+}
+.login a p{
+    font-family: "Cairo", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28.11px;
+    color: white;
+}
+.login a{
+    text-decoration: none;
+}
+/* right part */
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 40px;   
+}
+.rightpart{
+    background-color: var(--color);
+    border-radius: 10px;
+    width: 20%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.oner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.do{
+    margin-right: 20px;
+}
+
+.do h2{
+    font-family: "Cairo", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 43.1px;
+
+    
+}
+.do p{
+    font-family: "Cairo", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 43.1px;    
+}
+
+.twor{
+    margin-right: 10px;
+    margin-left: 10px;
+    border-top: 1px solid black;
+    
+}
+.r1 a,.r2 a,.r3 a{
+text-decoration: none;
+}
+.r1,.r2,.r3{
+    display: flex;
+    align-items: center;
+    margin-top: 50px; 
+    margin-right: 30px;
+
+}
+
+.r1 h2{
+padding-right: 10px;
+cursor: pointer;
+color: rgba(0, 0, 0, 0.625);
+}
+
+.r2 h2{
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.566);
+    cursor: pointer;
+
+}
+
+.r3 h2{
+    padding-right: 10px;
+    color: black;
+    cursor: pointer;
+}
+/* /////////////////////////////////left part */
+.leftpart{
+    /* width: 80%; */
+    margin-left: 45px;
+    height: 20%;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column; 
+}
+
+/* ///////////////////////////////////////////// */
+
+
+/* section 3    left two part*/
+.onepartll{
+    display: flex;
+    margin-bottom: 30px;
+    background-color: var(--color);
+    border-radius:10px ;  
+}
+.head1{
+    padding-right:30px ;
+    padding-top: 30px;
+    margin-left: 250px;
+
+}
+.head1 h2{
+    font-family: Lemonada;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45.95px;
+    
+    
+}
+.head1 p{
+    font-family: Lemonada;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 19.98px;
+    
+    
+}
+.imgr{
+    margin-left: 50px;
+}
+/* /////////////////////////con3l */
+.con3l{
+    background-color: var(--color);
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.fol{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.222);
+    margin-left: 40px;
+    padding-left: 15px;
+
+}
+.fol img{
+    margin-right: 10px;
+}
+
+.onl{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.onl h2{
+    font-family: Lemonada;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25.97px;    
+}
+.onl img{
+    border-radius: 50%;
+    background-color: green;
+    padding: 10px;
+    margin-left: 10px;
+}
+.twl{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.ts1{
+    color: #0F74DD;
+    font-family: Lemonada;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 19.98px;    
+}
+.ts2{
+    margin-right: 20px   ;
+    font-family: Lemonada;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 21.98px;
+
+}
+.twoll{
+    border-left: 1px solid rgba(0, 0, 0, 0.322);
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+.onll{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.onll h2{
+    font-family: Lemonada;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25.97px;    
+}
+.onll img{
+    border-radius: 50%;
+    background-color: rgb(220, 220, 66);
+    padding: 10px;
+    margin-left: 10px;
+}
+.twll{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.ts11{
+    color: red;
+    font-family: Lemonada;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 19.98px;    
+}
+.ts22{
+    margin-right: 20px;
+    font-family: Lemonada;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 21.98px;    
+}
+
+
+.onlll{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.onlll h2{
+    font-family: Lemonada;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25.97px;    
+}
+.onlll img{
+    border-radius: 50%;
+    background-color: green;
+    padding: 10px;
+    margin-left: 10px;
+}
+.twlll{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.ts11{
+    color: red;
+}
+.ts22{
+    margin-right: 20px;
+    font-family: Lemonada;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 21.98px;    
+}
+/* ////////////////////////////// */
+.con4l{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.rightl{
+    display: flex;
+    background-color: var(--color);
+    border-radius: 10px;
+    width: 51%;
+}
+.rightl img{
+    padding: 15px 0px;
+}
+.fotl{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.ontl{
+    display: flex;
+    align-items: center;
+    margin-bottom:20px ;
+}
+.ontl h2{
+    font-family: Lemonada;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25.97px;
+    padding-right: 10px;    
+}
+.twtl{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.twtl h3{
+    font-family: Lemonada;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 17.98px;
+    padding-right: 15px;        
+}
+.thtl {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.thtl span{
+    font-family: Lemonada;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 21.98px;    
+}
+.leftl{
+    background-color: var(--color);
+    border-radius: 10px;
+}
+.leftl img{
+    padding: 18px;
+}
+/* //////////////////////////////////////// */
+.con5l{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.righthl{
+    background-color: var(--color);
+    border-radius: 10px; 
+    width: 40%;
+    padding-top:15px;
+    padding-left: 20px;
+}
+.onhl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-bottom: 20px;
+}
+.l1{
+display: flex;
+align-items: center;
+margin-right: 20px;
+}
+.l1 h2{
+    font-family: Lemonada;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25.97px;
+    padding-right: 10px;    
+}
+.l2 .select{
+border-radius: 5px;
+border: none;
+padding: 5px 10px;
+background-color: #0F74DD; 
+color: white;
+font-family: Lemonada;
+font-size: 9px;
+font-weight: 700;
+line-height: 17.98px;
+}
+.twhl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.l3{
+    margin-right: 50px;
+}
+.l3 p{
+    font-family: Lemonada;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 17.98px;
+}
+.l3 span{
+    font-family: Lemonada;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 115.88px;
+    margin-right: 30px;    
+}
+/* ////////////////// */
+.lefht{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color);
+    border-radius: 10px;
+    width: 55%;
+    padding: 22px 20px;
+    
+}
+.l5{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.l5 h2{
+    font-family: Lemonada;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25.97px;
+    padding-right: 10px;    
+}
+.l6{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.l6 h3{
+    font-family: Lemonada;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25.97px; 
+    margin-left: 15px;  
+    color: rgba(0, 0, 0, 0.381);
+}
+.l6 span{
+    font-family: Lemonada;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25.97px;    
+}
+/* /////////////////////// */
+.con6l{
+    display: flex;
+    justify-content: space-between;
+}
+
+.L5{
+    display: flex;
+    
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.L5 h2{
+    font-family: Lemonada;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25.97px;
+    padding-right: 10px;    
+}
+.L1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.I1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.L1 h3{
+    font-family: Lemonada;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 19.98px;
+    margin-right: 10px;    
+}
+.L3{
+    /* display: flex; */
+    background-color: var(--color);
+    border-radius: 10px;
+    width: 50%;
+    padding-top: 30px;
+}
+/* /////////////////// */
+.R1{
+    display: flex;
+    /* align-items: center; */
+    background-color: var(--color);
+    border-radius: 10px;
+    padding: 30px 20px;
+    
+}
+.R4{
+    margin-left: 20px;
+}
+.R2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.R2 img{
+    margin-right: 10px;  
+}
+.R2 h3{
+    font-family: Lemonada;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25.97px;
+    margin-right: 20px;    
+}
+.R3{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+.R3 span{
+    font-family: Lemonada;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 17.98px;
+    margin-right: 10px;
+
+}
+.R3 h3{
+    font-family: Lemonada;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 17.98px; 
+    margin-right: 10px;   
+}
